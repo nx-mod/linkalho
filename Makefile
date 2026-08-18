@@ -46,7 +46,7 @@ APP_AUTHOR		:=	rrocha & Impeeza
 APP_VERSION		:=	2.0.2
 TARGET			:=	$(shell echo $(APP_TITLE) | tr A-Z a-z)
 ROMFS			:=	resources
-BOREALIS_PATH		:=	lib/borealis
+BOREALIS_PATH		:=	../borealis
 BOREALIS_RESOURCES	:=	romfs:/
 
 #---------------------------------------------------------------------------------
